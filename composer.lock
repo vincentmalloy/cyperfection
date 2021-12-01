@@ -2244,12 +2244,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/vincentmalloy/sl_contact.git",
-                "reference": "ef55e00b6404a4938488c9b581eeae03f0ea5f21"
+                "reference": "b8e3245ff8b1d168cb6d34df6b8f1e2b6fcfd8a9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/vincentmalloy/sl_contact/zipball/ef55e00b6404a4938488c9b581eeae03f0ea5f21",
-                "reference": "ef55e00b6404a4938488c9b581eeae03f0ea5f21",
+                "url": "https://api.github.com/repos/vincentmalloy/sl_contact/zipball/b8e3245ff8b1d168cb6d34df6b8f1e2b6fcfd8a9",
+                "reference": "b8e3245ff8b1d168cb6d34df6b8f1e2b6fcfd8a9",
                 "shasum": ""
             },
             "require": {
@@ -2299,7 +2299,7 @@
                 "source": "https://github.com/vincentmalloy/sl_contact/tree/main",
                 "issues": "https://github.com/vincentmalloy/sl_contact/issues"
             },
-            "time": "2021-12-01T16:46:56+00:00"
+            "time": "2021-12-01T18:08:18+00:00"
         },
         {
             "name": "symfony/cache",
