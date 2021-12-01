@@ -9,6 +9,7 @@
 		"sort-packages": true
 	},
 	"require": {
+		"friendsoftypo3/extension-builder": "^11.0",
 		"helhum/typo3-console": "^7.0.2",
 		"simon-lundius/sitepackage": "@dev",
 		"typo3/cms-backend": "^11.5.0",

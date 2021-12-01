@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c757843d7e38f822b4d9fbcb9cf08bbc",
+    "content-hash": "d7c8571168f86912823d24c545a3bb39",
     "packages": [
         {
             "name": "bacon/bacon-qr-code",
@@ -844,6 +844,81 @@
                 "source": "https://github.com/darylldoyle/svg-sanitizer/tree/0.14.1"
             },
             "time": "2021-08-09T23:46:54+00:00"
+        },
+        {
+            "name": "friendsoftypo3/extension-builder",
+            "version": "v11.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/FriendsOfTYPO3/extension_builder.git",
+                "reference": "aeef68d72f932d53f9cd7c9ae7aab7f2555c914f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/FriendsOfTYPO3/extension_builder/zipball/aeef68d72f932d53f9cd7c9ae7aab7f2555c914f",
+                "reference": "aeef68d72f932d53f9cd7c9ae7aab7f2555c914f",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "nikic/php-parser": "^4.10.4",
+                "php": "^7.4 || ^8.0",
+                "typo3/cms-backend": "^11.4",
+                "typo3/cms-core": "^11.4"
+            },
+            "replace": {
+                "typo3-ter/extension-builder": "self.version"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "^2.18",
+                "roave/security-advisories": "dev-latest",
+                "sebastian/diff": "^3.0",
+                "typo3/cms-frontend": "^11.4",
+                "typo3/cms-install": "^11.4",
+                "typo3/coding-standards": "^0.3.0",
+                "typo3/testing-framework": "^6.11"
+            },
+            "type": "typo3-cms-extension",
+            "extra": {
+                "typo3/cms": {
+                    "extension-key": "extension_builder",
+                    "cms-package-dir": "{$vendor-dir}/typo3/cms",
+                    "app-dir": ".Build",
+                    "ignore-as-root": false,
+                    "web-dir": ".Build/public"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "EBT\\ExtensionBuilder\\": "Classes/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Nico de Haen",
+                    "role": "Developer"
+                },
+                {
+                    "name": "extension_builder Development Team",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Tool to kickstart and maintain TYPO3 extensions",
+            "homepage": "https://github.com/FriendsOfTYPO3/extension_builder",
+            "keywords": [
+                "extension",
+                "extension_builder",
+                "typo3"
+            ],
+            "support": {
+                "issues": "https://github.com/FriendsOfTYPO3/extension_builder/issues",
+                "source": "https://github.com/FriendsOfTYPO3/extension_builder/tree/v11.0.1"
+            },
+            "time": "2021-11-29T23:31:08+00:00"
         },
         {
             "name": "guzzlehttp/guzzle",
