@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d7c8571168f86912823d24c545a3bb39",
+    "content-hash": "086cf101cc4dbd98398ab48cbdf5a296",
     "packages": [
         {
             "name": "bacon/bacon-qr-code",
@@ -2312,6 +2312,60 @@
                 "issues": "https://github.com/vincentmalloy/sl_sitepackage/issues"
             },
             "time": "2021-11-30T13:16:46+00:00"
+        },
+        {
+            "name": "simonlundius/sl-contact",
+            "version": "dev-main",
+            "dist": {
+                "type": "path",
+                "url": "./packages/sl_contact",
+                "reference": "a90ad790e145fead32d9484083021282bddb9bc9"
+            },
+            "require": {
+                "typo3/cms-core": "^11.5"
+            },
+            "replace": {
+                "typo3-ter/sl-contact": "self.version"
+            },
+            "require-dev": {
+                "typo3/testing-framework": "^6.9.0"
+            },
+            "type": "typo3-cms-extension",
+            "extra": {
+                "typo3/cms": {
+                    "cms-package-dir": "{$vendor-dir}/typo3/cms",
+                    "web-dir": ".Build/public",
+                    "extension-key": "sl_contact"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "SimonLundius\\SlContact\\": "Classes"
+                }
+            },
+            "autoload-dev": {
+                "psr-4": {
+                    "SimonLundius\\SlContact\\Tests\\": "Tests"
+                }
+            },
+            "scripts": {
+                "post-autoload-dump": [
+                    "TYPO3\\TestingFramework\\Composer\\ExtensionTestEnvironment::prepare"
+                ]
+            },
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Simon Lundius",
+                    "role": "Developer"
+                }
+            ],
+            "description": "provides a simple plugin to display a contact form",
+            "transport-options": {
+                "relative": true
+            }
         },
         {
             "name": "symfony/cache",
@@ -7066,7 +7120,8 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "simon-lundius/sitepackage": 20
+        "simon-lundius/sitepackage": 20,
+        "simonlundius/sl-contact": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
