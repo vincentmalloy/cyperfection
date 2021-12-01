@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8e38d3aed3f17f9ee095a3ffe43711bd",
+    "content-hash": "c757843d7e38f822b4d9fbcb9cf08bbc",
     "packages": [
         {
             "name": "bacon/bacon-qr-code",
@@ -2195,6 +2195,48 @@
                 "source": "https://github.com/ralouphie/getallheaders/tree/develop"
             },
             "time": "2019-03-08T08:55:37+00:00"
+        },
+        {
+            "name": "simon-lundius/sitepackage",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/vincentmalloy/sl_sitepackage.git",
+                "reference": "4a0884a200b4d840c1992642e3f9e66db8cc793c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/vincentmalloy/sl_sitepackage/zipball/4a0884a200b4d840c1992642e3f9e66db8cc793c",
+                "reference": "4a0884a200b4d840c1992642e3f9e66db8cc793c",
+                "shasum": ""
+            },
+            "require": {
+                "typo3/cms-core": "^10.4 || ^11.0"
+            },
+            "replace": {
+                "typo3-ter/my-extension": "self.version"
+            },
+            "default-branch": true,
+            "type": "typo3-cms-extension",
+            "extra": {
+                "typo3/cms": {
+                    "extension-key": "sl_sitepackage"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "SimonLundius\\SitePackage\\": "Classes/"
+                }
+            },
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "description": "Basic Sitepackage",
+            "support": {
+                "source": "https://github.com/vincentmalloy/sl_sitepackage/tree/master",
+                "issues": "https://github.com/vincentmalloy/sl_sitepackage/issues"
+            },
+            "time": "2021-11-30T13:16:46+00:00"
         },
         {
             "name": "symfony/cache",
@@ -6948,7 +6990,9 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "simon-lundius/sitepackage": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
