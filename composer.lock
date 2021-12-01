@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "086cf101cc4dbd98398ab48cbdf5a296",
+    "content-hash": "79a19fe94021d5ff3aa18d52f514bc4d",
     "packages": [
         {
             "name": "bacon/bacon-qr-code",
@@ -2316,10 +2316,16 @@
         {
             "name": "simonlundius/sl-contact",
             "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/vincentmalloy/sl_contact.git",
+                "reference": "cd802a7098f7fa49b8109eb68be14d22305ff67e"
+            },
             "dist": {
-                "type": "path",
-                "url": "./packages/sl_contact",
-                "reference": "a90ad790e145fead32d9484083021282bddb9bc9"
+                "type": "zip",
+                "url": "https://api.github.com/repos/vincentmalloy/sl_contact/zipball/cd802a7098f7fa49b8109eb68be14d22305ff67e",
+                "reference": "cd802a7098f7fa49b8109eb68be14d22305ff67e",
+                "shasum": ""
             },
             "require": {
                 "typo3/cms-core": "^11.5"
@@ -2330,6 +2336,7 @@
             "require-dev": {
                 "typo3/testing-framework": "^6.9.0"
             },
+            "default-branch": true,
             "type": "typo3-cms-extension",
             "extra": {
                 "typo3/cms": {
@@ -2363,9 +2370,11 @@
                 }
             ],
             "description": "provides a simple plugin to display a contact form",
-            "transport-options": {
-                "relative": true
-            }
+            "support": {
+                "source": "https://github.com/vincentmalloy/sl_contact/tree/main",
+                "issues": "https://github.com/vincentmalloy/sl_contact/issues"
+            },
+            "time": "2021-12-01T16:36:20+00:00"
         },
         {
             "name": "symfony/cache",

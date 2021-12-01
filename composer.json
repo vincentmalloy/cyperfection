@@ -47,13 +47,13 @@
 		]
 	},
 	"repositories": {
-		"local": {
-			"type": "path",
-			"url": "./packages/*"
-		},
 		"sitepackage": {
 			"type": "vcs",
 			"url": "git@github.com:vincentmalloy/sl_sitepackage.git"
+		},
+		"contact": {
+			"type": "vcs",
+			"url": "git@github.com:vincentmalloy/sl_contact.git"
 		}
 	}
 }
