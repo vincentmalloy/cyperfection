@@ -2277,12 +2277,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/vincentmalloy/sl_sitepackage.git",
-                "reference": "4a0884a200b4d840c1992642e3f9e66db8cc793c"
+                "reference": "c1ab0404708132db77d8f543980995a24668f400"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/vincentmalloy/sl_sitepackage/zipball/4a0884a200b4d840c1992642e3f9e66db8cc793c",
-                "reference": "4a0884a200b4d840c1992642e3f9e66db8cc793c",
+                "url": "https://api.github.com/repos/vincentmalloy/sl_sitepackage/zipball/c1ab0404708132db77d8f543980995a24668f400",
+                "reference": "c1ab0404708132db77d8f543980995a24668f400",
                 "shasum": ""
             },
             "require": {
@@ -2311,7 +2311,7 @@
                 "source": "https://github.com/vincentmalloy/sl_sitepackage/tree/master",
                 "issues": "https://github.com/vincentmalloy/sl_sitepackage/issues"
             },
-            "time": "2021-11-30T13:16:46+00:00"
+            "time": "2021-12-01T15:12:48+00:00"
         },
         {
             "name": "simonlundius/sl-contact",
